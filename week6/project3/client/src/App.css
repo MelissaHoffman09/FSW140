@@ -28,7 +28,7 @@ p {
   font-size: 18px;
 }
 
-.box2 {
+.box1 {
   width: 350px;
   display: block;
   border-radius: 50px;
@@ -36,7 +36,7 @@ p {
   margin: 2px auto;
 }
 
-.box3 {
+.box2 {
   width: 150px;
   height: 130px;
   display: block;

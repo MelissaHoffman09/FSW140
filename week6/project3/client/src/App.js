@@ -21,12 +21,12 @@ axios.get('/getitems')
       <h3>Baby, Wedding and Wish List Registry for all occassions</h3>
       <div className="border"></div>
 
-        <div className="box">
+        <div>
         {
           items ? 
             items.map(item => 
-              <div className="box2">
-              <div className="box3" style={{background: `linear-gradient(to bottom right, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('${item.imageURL}')`}}></div>
+              <div className="box1">
+              <div className="box2" style={{background: `linear-gradient(to bottom right, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('${item.imageURL}')`}}></div>
                 <h3>{item.title}</h3>
                 <div className="border"></div>
                 <p>{item.description}</p>
