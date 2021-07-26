@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Pacifico&display=swap');
+
+
+html, body {
+  
+  text-align: center;
+  color: #594F4F;
+  scroll-behavior: smooth;
+  background-image: url('https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+
+.img1 {
+  height: 450px;
+  width: 500px;
+  filter: drop-shadow(2px 4px 8px rgba 0,0,0,0.4);
+  border-radius: 15%;
+  width: 35%; 
+}
+
+h1 {
+  font-size: 85px;
+  font-family: 'Fredericka the Great', cursive;
+  margin-bottom: 0%;
+  color: #594F4F;
+}
+
+h2 {
+  font-size: 50px;
+  font-family: 'Pacifico', cursive;
+  color: #594F4F;
+  margin-top: 0%;
+}
+
+h3 {
+  font-size: 35px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+P, span {
+  font-size: 20px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+input {
+  margin: 3px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 12px;
+  letter-spacing: .1rem;
+
+}
+
+input:hover {
+  box-shadow: 1px 2px 5px #585858;
+}
+
+.submitB {
+  margin-top: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 20px, 28px;
+  background-color: #594F4F;
+  color: whitesmoke;
+}
+
+.submitB:hover {
+  filter: drop-shadow(1px 2px 4px #585858);
+}
+
+.deleteB {
+  margin-bottom: 7px;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-right: 3px;
+  background-color: #594F4F;
+  color: whitesmoke;
+}
+.deleteB:hover {
+  filter: drop-shadow(1px 2px 4px #585858);
+}
+.editB {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #594F4F;
+  color: whitesmoke;
+}
+.editB:hover {
+  filter: drop-shadow(1px 2px 4px #585858);
+}
+
+.cardtitle {
+  font-size: 26px;
+  font-family: 'Fredericka the Great', cursive;
+  margin-bottom: 0%;
+}
+
+.list {
+  font-size: 45px;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+.card1 {
+  font-size: 12px;
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  opacity: 0.9;
+  border-radius: 15px;
+  width: 30%;
+  padding-top: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1.5%;
+}
+
+.card {
+  font-size: 12px;
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  opacity: 0.9;
+  border-radius: 15px;
+  box-shadow: 6px 8px rgba(0,0,0,0.4);
+  width: 30%;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1.5%;
+}
+@media (min-width: 576px){
+  .card, .img1 {
+  max-width: 540px;
+}}
+
+@media (min-width: 768px){
+  .card, .img1 {
+  max-width: 720px;
+}}
+
+@media (min-width: 992px){
+  .card, .img1 {
+  max-width: 960px;
+}}
+
+@media (min-width: 1200px){
+  .card , .img1{
+  max-width: 1040px;
+}}
+
+@media (max-width: 576px) {
+  .card, .img1 {
+      max-width: 90vw;
+  }
+}
